@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string-array name="quality">
+        <item> Excelente – 10% </item>
+        <item> Ótimo – 8% </item>
+        <item> Bom – 5% </item>
+        <item> Ruim – 2% </item>
+    </string-array>
+</resources>
