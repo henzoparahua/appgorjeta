@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:background="#fee"
         android:inputType="number"
+        android:id="@+id/valor"
         />
 
 </com.google.android.material.textfield.TextInputLayout>
@@ -63,9 +64,11 @@
         />
    <Spinner
        android:layout_width="match_parent"
+       android:id="@+id/spinner"
        android:layout_height="50dp"
        android:entries="@array/quality"
        android:layout_marginHorizontal="20dp"
+       android:background="#fee"
        />
     <Button
         android:layout_width="match_parent"
@@ -75,7 +78,9 @@
         android:hint="Calcular Gorjeta"
         android:backgroundTint="#fcf"
         android:textColorHint="@color/black"
-        android:textSize="18sp"/>
+        android:textSize="18sp"
+        android:id="@+id/btnCalcular"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -89,6 +94,16 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="#eff"
+        android:text="diñero"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:id="@+id/txtValor"
         />
 
     <TextView
@@ -105,5 +120,16 @@
         android:textStyle="bold"
         android:textColor="#000"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="#eff"
+        android:text="diñero"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:id="@+id/txtTotal"
+        />
+
 
 </LinearLayout>
